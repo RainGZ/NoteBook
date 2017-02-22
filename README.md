@@ -1,2 +1,2 @@
 # NoteBook
-Study  New  skills
+Study  New  Skills
