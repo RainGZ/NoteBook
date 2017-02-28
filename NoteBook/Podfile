@@ -1,9 +1,9 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+# platform :ios, '8.0'
 
 target 'NoteBook' do
     
-  pod 'CocoaAsyncSocket', '~> 7.5.0
+  pod 'CocoaAsyncSocket', '~> 7.5.0'
   
   
   target 'NoteBookTests' do
@@ -12,6 +12,7 @@ target 'NoteBook' do
 
   target 'NoteBookUITests' do
     inherit! :search_paths
+    # Pods for testing
   end
 
 end
