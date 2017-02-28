@@ -2,19 +2,16 @@
 # platform :ios, '9.0'
 
 target 'NoteBook' do
-  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
-  pod 'CocoaAsyncSocket', '~> 7.5.0'
-  # Pods for NoteBook
-
+    
+  pod 'CocoaAsyncSocket', '~> 7.5.0
+  
+  
   target 'NoteBookTests' do
     inherit! :search_paths
-    # Pods for testing
   end
 
   target 'NoteBookUITests' do
     inherit! :search_paths
-    # Pods for testing
   end
 
 end
